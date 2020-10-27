@@ -1,16 +1,16 @@
   import React from 'react';
-  // import ReactDOM from 'react-dom';
-
+  // import "./App.css"
+  import Navbar from "./components/Navbar";
+;
 
   function App() {
     return (
-   <div className="App">
-       <h1> Testing</h1>
+      <div>
+       <Navbar />
       </div>
     );
-  }
+    }
 
   export default App;
-
 
 
