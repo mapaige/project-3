@@ -5,13 +5,14 @@ import React from "react";
 // import CreateRegistry from "./pages/CreateRegistry";
 //  import Navbar from "../components/Navbar";
 // import Footer from "./components/Footer";
-// import Wrapper from "./components/Wrapper";
+//  import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
     //  <Router>
-      <div>
-        <>
+    <div>
+        {/* <Wrapper> */}
+        <meta name="viewport" content="width=device-width"></meta>
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div className="container">
                 <a className="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
@@ -176,8 +177,9 @@ function App() {
        
         <script src="js/scripts.js"></script>
         </nav>
-      </>
-   </div> 
+     
+        {/* </Wrapper> */}
+    </div> 
   );
 }
 
